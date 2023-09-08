@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import "./styleHome.css"
 import motorista from "../../assets/motorista.png"
 export default function Home(){
 
