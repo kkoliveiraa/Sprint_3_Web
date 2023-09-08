@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+#menu{
+    align-items: center;
+}
+#logoHome{
+    height: 50px;
+    width: 150px;
+}
+#menu span {
+    color:#FFF;
+    font-size: 22px;
+}
+.Link{
+    font-size: 22px;
+}
