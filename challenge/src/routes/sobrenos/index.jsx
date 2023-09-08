@@ -2,6 +2,7 @@ import rafa from "../../assets/rafa.png"
 import edu from "../../assets/edu.png"
 import thiago from "../../assets/Thiago Gil Camargo.png"
 import caua from "../../assets/caua.png"
+import kaka from "../../assets/kaka.png"
 export default function Sobrenos(){
 
     
