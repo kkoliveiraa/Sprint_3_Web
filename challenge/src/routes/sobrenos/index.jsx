@@ -1,64 +1,20 @@
-export default function Sobrenos(){
+import rafa from "../../assets/rafa.png";
+import edu from "../../assets/edu.png";
+import thiago from "../../assets/Thiago Gil Camargo.png";
+import caua from "../../assets/caua.png";
+import kaka from "../../assets/kaka.png";
 
-    
-    return(
-        <main>
-            <h1>Informações sobre nós</h1>
-            <ul>
-                <li>
-                Cauã Couto Basques
-                <br />
-                RM 97755
-                <br />
-                1TDSS
-                <br />
-                @ccoutob
-                
-            </li>
-
-            <li>
-                Eduardo Moura Batageli
-                <br />
-                RM 97611
-                <br />
-                1TDSS
-                <br />
-                @EduBatageli
-                
-            </li>
-
-            <li>
-                Kaique Agostinho de Oliveira
-                <br />
-                RM 550815
-                <br />
-                1TDSS
-                <br />
-                @kkoliveiraa
-            </li>
-
-            <li>
-                Rafael Minoro Itokazo
-                <br />
-                RM 99988
-                <br />
-                1TDSS
-                <br />
-                @Rminoro
-
-            </li>
-
-            <li>
-                Thiago Gil Camargo
-                <br />
-                RM 551211
-                <br />
-                1TDSPV
-                <br />
-                @thiagogilcamargo
-            </li>
-        </ul>
-
-        </main>
-    )
+import "./css/style.css";
+export default function Sobrenos() {
+  return (
+    <main>
+      <div class="integrantes">
+        <img id="integrante" src={caua} alt="img caua" />
+        <img id="integrante" src={edu} alt="img edu" />
+        <img id="integrante" src={kaka} alt="img kaique"/>
+        <img id="integrante" src={rafa} alt="img rafa" />
+        <img id="integrante" src={thiago} alt="img thiago" />
+      </div>
+    </main>
+  );
 }
