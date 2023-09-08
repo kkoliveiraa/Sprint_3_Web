@@ -8,10 +8,12 @@ export default function Sobrenos(){
     
     return(
         <main>
-            <img id="motorista"src={rafa} alt="motorista de caminhão dirigindo" />
-            <img id="motorista"src={edu} alt="motorista de caminhão dirigindo" />
-            <img id="motorista"src={thiago} alt="motorista de caminhão dirigindo" />
             <img id="motorista"src={caua} alt="motorista de caminhão dirigindo" />
+            <img id="motorista"src={edu} alt="motorista de caminhão dirigindo" />
+            <img id="motorista"src={kaka} alt="motorista de caminhão dirigindo" />
+            <img id="motorista"src={rafa} alt="motorista de caminhão dirigindo" />
+            <img id="motorista"src={thiago} alt="motorista de caminhão dirigindo" />
+
 
             <h1>tetseee</h1>
         </main>
