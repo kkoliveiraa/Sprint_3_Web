@@ -1,0 +1,15 @@
+.objetivos {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .objetivos .objetivos-px {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
