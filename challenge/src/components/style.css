@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-#menu{
-    align-items: center;
-}
-#logoHome{
-    height: 50px;
-    width: 150px;
-}
-#menu span {
-    color:#FFF;
-    font-size: 22px;
-}
+.box {
+    height: 130px;
+    width: 1441px;
+    
+  }
+  
+  .box .tit-porto {
+    height: 127px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+  }
+
 .Link{
-    font-size: 22px;
+    font-size: 30px;
+    padding: 2rem;
 }

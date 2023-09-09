@@ -1,0 +1,201 @@
+.objetivos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.objetivos .objetivos-px {
+  height: 1024px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.objetivos .overlap {
+  height: 1024px;
+  position: relative;
+  width: 1473px;
+}
+
+.objetivos .conteudo {
+  height: 290px;
+  left: 98px;
+  position: absolute;
+  top: 585px;
+  width: 1323px;
+}
+
+.objetivos .machine-learning {
+  height: 245px;
+  left: 919px;
+  object-fit: cover;
+  position: absolute;
+  top: 30px;
+  width: 400px;
+}
+
+.objetivos .overlap-group {
+  background-image: url(./caixa-2-conteudo.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 304px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 868px;
+}
+
+.objetivos .text-wrapper {
+  color: #ffffff;
+  font-family: "Fjalla One-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 161px;
+  width: 792px;
+}
+
+.objetivos .div {
+  color: #ffffff;
+  font-family: "Fjalla One-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+  width: 793px;
+}
+
+.objetivos .e-como-pretendemos {
+  color: transparent;
+  font-family: "Aleo-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 84px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 453px;
+}
+
+.objetivos .span {
+  color: #ffffff;
+}
+
+.objetivos .text-wrapper-2 {
+  color: #d9d9d9;
+}
+
+.objetivos .parceria-porto {
+  height: 258px;
+  left: 1120px;
+  position: absolute;
+  top: 165px;
+  width: 353px;
+}
+
+.objetivos .porto-seguro {
+  height: 90px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 293px;
+}
+
+.objetivos .logo-porto-help {
+  height: 139px;
+  left: 60px;
+  position: absolute;
+  top: 119px;
+  width: 297px;
+}
+
+.objetivos .overlap-group-2 {
+  height: 71px;
+  left: 1px;
+  position: absolute;
+  top: 68px;
+  width: 225px;
+}
+
+.objetivos .img {
+  height: 70px;
+  left: 104px;
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 70px;
+}
+
+.objetivos .help {
+  color: #ffffff;
+  font-family: "Fjalla One-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 225px;
+}
+
+.objetivos .porto {
+  color: #ffffff;
+  font-family: "Fjalla One-Regular", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 293px;
+}
+
+.objetivos .overlap-wrapper {
+  height: 209px;
+  left: 98px;
+  position: absolute;
+  top: 182px;
+  width: 964px;
+}
+
+.objetivos .div-wrapper {
+  background-image: url(./caixa-1-conteudo.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 223px;
+  position: relative;
+  width: 976px;
+}
+
+.objetivos .p {
+  color: #ffffff;
+  font-family: "Fjalla One-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+  width: 890px;
+}
+
+.objetivos .tit-porto {
+  height: 127px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
