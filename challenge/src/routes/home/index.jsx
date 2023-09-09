@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom'
 import motorista from "../../assets/motorista.png"
+import '../../routes/home/styleHome.css'
+import Rodape from '../../components/rodape'
 export default function Home(){
+
 
     return(
         <main>
+            <div id="scrollableContainer" style={{ width: '100%', height: '80vh', overflow: 'auto' }}>
+
            <div id="superContainer">
 
             <div id="Container1">
@@ -43,6 +48,12 @@ export default function Home(){
             <p>Visamos atender o chamado de veículos pesados, buscando relizar o chmado para as seguintes categorias:</p>
             <p>Caminhões</p><p>Ônibus</p><p>Trailers</p>
         </div>
+
+        <div>
+            <Rodape/>
+        </div>
+        </div>
+
         </main>
     )
 }

@@ -1,0 +1,86 @@
+#superContainer{
+    display: flex;
+}
+#Container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+#Container1 h1{
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+#Container1 h2{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+#texto{
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+}
+#motorista{
+    width: 25vw;
+    height: 30vh;
+}
+#Container2{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    border:solid #002890 10px;
+    border-radius:50px ;
+    justify-content: space-between;
+
+}
+#tituloC2{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+.botao{
+    margin-bottom: 30px;
+    border-radius:50px ;
+    color: #002890;
+    background-color: #ffff;
+}
+.botaoObj{
+
+    display: flex;
+    justify-content:end;
+    text-align:start;
+
+}
+
+#containerObj{
+    display: flex;
+    
+    background-color: #000000;
+}
+#conteudoObj{
+    display: flex;
+    text-align:left;
+    border-radius: 50px;
+    background-color: #000000;
+}
