@@ -1,14 +1,17 @@
 import React from "react";
-import "./css/style.css";
+import "./estilo.css";
+
+
+
 
 export const Objetivos = () => {
   return (
     <div className="objetivos">
       <div className="objetivos-px">
         <div className="overlap">
-          <img className="background" alt="Background" src="background.svg" />
+          <img className="background" alt="Background" src="background.png" />
           <div className="conteudo">
-            <img className="machine-learning" alt="Machine learning" src="machine-learning.png" />
+            <img className="machine-learning" alt="Machine learning" src="machine.png" />
             <div className="overlap-group">
               <p className="text-wrapper">
                 Com base nessa classificação precisa, o sistema recomendará o modal de atendimento mais adequado para
@@ -31,7 +34,7 @@ export const Objetivos = () => {
             <img className="porto-seguro" alt="Porto seguro" src="porto-seguro.png" />
             <div className="logo-porto-help">
               <div className="overlap-group-2">
-                <img className="img" alt="Logo porto help" src="logo-porto-help.png" />
+                <img className="img" alt="Logo porto help" src="logoPortoHelp.png" />
                 <div className="help">HELP</div>
               </div>
               <div className="porto">PORTO</div>
@@ -47,7 +50,6 @@ export const Objetivos = () => {
               </p>
             </div>
           </div>
-          <img className="tit-porto" alt="Tit porto" src="tit-porto.png" />
         </div>
       </div>
     </div>
