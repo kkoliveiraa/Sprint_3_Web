@@ -1,15 +1,16 @@
 import React from "react";
 import "./estilo.css";
+import background from "../../assets/background.png";
 
 
 
+export default function Objetivos (){
 
-export const Objetivos = () => {
   return (
     <div className="objetivos">
       <div className="objetivos-px">
         <div className="overlap">
-          <img className="background" alt="Background" src="background.png" />
+          <img className="background" alt="Background" src="../../assets/background.png"/>
           <div className="conteudo">
             <img className="machine-learning" alt="Machine learning" src="machine.png" />
             <div className="overlap-group">
