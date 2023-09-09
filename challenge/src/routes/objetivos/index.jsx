@@ -1,18 +1,22 @@
 import React from "react";
 import "./estilo.css";
-import background from "../../assets/background.png";
+import machine from "../../assets/machine.png";
+import porto from "../../assets/porto.png";
+import logo from "../../assets/logoPortoHelp.png";
+import caixa1 from "../../assets/caixa-1.png";
+import caixa2 from "../../assets/caixa-2.png";
 
 
 
 export default function Objetivos (){
 
   return (
+    <div id="scrollableContainer" style={{ width: '100%', height: 'calc(100vh - 60px)', overflow: 'auto' }}>
     <div className="objetivos">
       <div className="objetivos-px">
         <div className="overlap">
-          <img className="background" alt="Background" src="../../assets/background.png"/>
           <div className="conteudo">
-            <img className="machine-learning" alt="Machine learning" src="machine.png" />
+            <img id="machine" src={machine} alt="Machine-learning"/>
             <div className="overlap-group">
               <p className="text-wrapper">
                 Com base nessa classificação precisa, o sistema recomendará o modal de atendimento mais adequado para
@@ -26,19 +30,15 @@ export default function Objetivos (){
               </p>
             </div>
           </div>
-          <p className="e-como-pretendemos">
-            <span className="span">E como pretendemos </span>
-            <span className="text-wrapper-2">implementar</span>
-            <span className="span"> tudo isso?</span>
+          <p className="subtitulo">
+            E como pretendemos implementar tudo isso?
           </p>
           <div className="parceria-porto">
-            <img className="porto-seguro" alt="Porto seguro" src="porto-seguro.png" />
+            <img className="porto-seguro" alt="Porto seguro" src="../../assets/porto.png" />
             <div className="logo-porto-help">
               <div className="overlap-group-2">
-                <img className="img" alt="Logo porto help" src="logoPortoHelp.png" />
-                <div className="help">HELP</div>
+                <img className="img" alt="Logo porto help" src="../../assets/logoPortoHelp.png" />
               </div>
-              <div className="porto">PORTO</div>
             </div>
           </div>
           <div className="overlap-wrapper">
@@ -53,6 +53,7 @@ export default function Objetivos (){
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

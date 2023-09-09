@@ -1,3 +1,4 @@
+
 .objetivos {
   display: flex;
   flex-direction: row;
@@ -35,7 +36,9 @@
 }
 
 .objetivos .overlap-group {
-  background-image: url(./caixa-2-conteudo.png);
+  border-radius: 50px;
+  background: #000000e3;
+  border:solid #002890 10px;
   background-position: 50% 50%;
   background-size: cover;
   height: 304px;
@@ -71,8 +74,8 @@
   width: 793px;
 }
 
-.objetivos .e-como-pretendemos {
-  color: transparent;
+.objetivos .subtitulo {
+  color: #ffffff;
   font-family: "Aleo-Bold", Helvetica;
   font-size: 48px;
   font-weight: 700;
@@ -81,14 +84,6 @@
   line-height: normal;
   position: absolute;
   top: 453px;
-}
-
-.objetivos .span {
-  color: #ffffff;
-}
-
-.objetivos .text-wrapper-2 {
-  color: #d9d9d9;
 }
 
 .objetivos .parceria-porto {
@@ -171,7 +166,10 @@
 }
 
 .objetivos .div-wrapper {
-  background-image: url(./caixa-1-conteudo.png);
+  background: #000000e3;
+  border:solid #002890 10px;
+  border-radius: 50px;
+  background-image: url ("../assets/caixa-1.png");
   background-position: 50% 50%;
   background-size: cover;
   height: 223px;
@@ -198,4 +196,8 @@
   position: absolute;
   top: 0;
   width: 1440px;
+}
+
+#machine {
+  
 }

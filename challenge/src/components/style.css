@@ -16,3 +16,11 @@
     font-size: 30px;
     padding: 2rem;
 }
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url ("../assets/caixa-1.png");
+}
