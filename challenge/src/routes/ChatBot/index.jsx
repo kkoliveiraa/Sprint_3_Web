@@ -1,5 +1,5 @@
-import portinho from "../../assets/portinho.png"
-import iconePortinho from "../../assets/icone-portinho.png"
+import portinho from "../../assets/Portinho.png"
+import iconePortinho from "../../assets/iconePortinho.png"
 export default function ChatBot(){
 
     return(
