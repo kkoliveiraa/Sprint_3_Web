@@ -1,0 +1,69 @@
+/* stylesolicitar.css */
+
+/* Título da Página */
+.titulo-pagina {
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* Caixa de Texto 1 */
+  .caixa-texto-1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 642px;
+    height: 230px;
+    flex-shrink: 0;
+    background: url(../../assets/caixaTexto.png), lightgray 50% / cover no-repeat;
+    border-radius: 50px;
+    box-shadow: 10px 10px 4px 0px #002890, 10px 10px 4px 0px #002890 inset;
+  }
+  
+  /* Caixa de Texto 2 */
+  .caixa-texto-2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 742px;
+    height: 285px;
+    flex-shrink: 0;
+    background: url(../../assets/caixaTexto.png), lightgray 50% / cover no-repeat;
+    border-radius: 50px;
+    box-shadow: 10px 10px 4px 0px #002890, 10px 10px 4px 0px #002890 inset;
+  }
+  
+  /* Imagem OpenCV */
+  .imagem-opencv {
+    width: 614px;
+    height: 614px;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 50px;
+    background: url(../../assets/openCV.jpg), lightgray 50% / cover no-repeat;
+  }
+  
+  /* Imagem haarCascade */
+  .imagem-haarcascade {
+    width: 478px;
+    height: 306px;
+    flex-shrink: 0;
+    background: url(../../assets/openCVexemplo.png), lightgray 50% / cover no-repeat;
+    border-radius: 50px;
+    box-shadow: 10px 10px 4px 0px #002890, 10px 10px 4px 0px #002890 inset;
+  }
+  

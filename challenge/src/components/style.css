@@ -1,26 +1,5 @@
-.box {
-    height: 130px;
-    width: 1441px;
-    
-  }
-  
-  .box .tit-porto {
-    height: 127px;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 1440px;
-  }
 
 .Link{
     font-size: 30px;
     padding: 2rem;
-}
-
-.rodape {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url ("../assets/caixa-1.png");
 }
