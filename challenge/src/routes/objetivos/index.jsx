@@ -16,8 +16,9 @@ export default function Objetivos (){
       <div className="objetivos-px">
         <div className="overlap">
           <div className="conteudo">
-            <img id="machine" src={machine} alt="Machine-learning"/>
+            <img id="machine" src={machine} alt="Machine-Learning"/>
             <div className="overlap-group">
+              <img id="caixa2" src={caixa2} alt="Caixa de texto 2"/>
               <p className="text-wrapper">
                 Com base nessa classificação precisa, o sistema recomendará o modal de atendimento mais adequado para
                 cada situação, como guincho, socorro mecânico ou reboque, dessa forma, nosso sistema estará pronto para
@@ -34,15 +35,16 @@ export default function Objetivos (){
             E como pretendemos implementar tudo isso?
           </p>
           <div className="parceria-porto">
-            <img className="porto-seguro" alt="Porto seguro" src="../../assets/porto.png" />
+            <img id="porto" src={porto} alt="Logo da Porto"/>
             <div className="logo-porto-help">
               <div className="overlap-group-2">
-                <img className="img" alt="Logo porto help" src="../../assets/logoPortoHelp.png" />
+                <img id="logoportohelp" src={logo} alt="Logo da Porto Help" />
               </div>
             </div>
           </div>
           <div className="overlap-wrapper">
             <div className="div-wrapper">
+              <img id="caixa1" src={caixa1} alt="Caixa de texto 1"/>
               <p className="p">
                 O projeto tem como objetivo desenvolver um sistema de recomendação de modal de atendimento para veículos
                 pesados em parceria com a Porto Seguro. Através da utilização de técnicas de inteligência artificial e

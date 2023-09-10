@@ -36,9 +36,6 @@
 }
 
 .objetivos .overlap-group {
-  border-radius: 50px;
-  background: #000000e3;
-  border:solid #002890 10px;
   background-position: 50% 50%;
   background-size: cover;
   height: 304px;
@@ -166,10 +163,6 @@
 }
 
 .objetivos .div-wrapper {
-  background: #000000e3;
-  border:solid #002890 10px;
-  border-radius: 50px;
-  background-image: url ("../assets/caixa-1.png");
   background-position: 50% 50%;
   background-size: cover;
   height: 223px;
@@ -199,5 +192,5 @@
 }
 
 #machine {
-  
+  float: right;
 }
