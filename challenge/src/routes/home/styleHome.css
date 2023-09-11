@@ -69,7 +69,10 @@
 }
 
 #textoC2{
-    max-width: 1650px;
+    margin: 10px auto;
+    max-width: 85%;
+    display: flex;
+    word-wrap: break-word;
 }
 .botao{
     margin-bottom: 30px;
