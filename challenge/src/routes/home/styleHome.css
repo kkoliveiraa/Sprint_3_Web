@@ -136,18 +136,22 @@
     margin-left: 5px;
     
 }
-#conteudoVei{
+.conteudoVei{
   text-align: center;
-  padding-top: 10px;
-  margin: 10px;
+  padding-top: 20px;
+  margin: 10px auto;
+  max-width: 80%;
+  
 }
 
 #veiculos{
+    margin-top: 20px;
     text-align: center;
     justify-content: space-between;
 }
 .veiculo {
-    display: inline-block;
+    display:inline-table;
+    justify-content: space-between;
     flex-grow: 1;
     margin: 0 10px;
 }
@@ -163,4 +167,5 @@
 .veiculo .imagemVeiculo#trailer img{
     max-width: 12vw;
     max-height: 20vh;
+    
 }

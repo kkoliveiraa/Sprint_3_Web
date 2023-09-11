@@ -63,7 +63,7 @@ export default function Home(){
 
             <div className="veiculo">
             <p>Trailers</p>
-            <p id="imagemVeiculo"><img id="trailer"src={trailer} alt="imagem de trailer preto e branco" /></p>
+           <p className="imagemVeiculo"><img id="trailer"src={trailer} alt="imagem de um trailer preto e branco"/></p>
             </div> 
 
             </div>
