@@ -21,6 +21,7 @@
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    
 }
 
 #titulo{
@@ -44,20 +45,28 @@
     display: flex;
     flex-direction: column;
     height: 50vh;
-    width: 50vw;
-    background-color: black;
+    
     text-align: center;
     font-size: 15px;
     font-weight: 400;
-    border:solid #002890 10px;
-    border-radius:50px ;
+   
+    
     justify-content: space-between;
+    background-image: url('../../assets/caixa-2.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    
 
 }
 #tituloC2{
     font-size: 17px;
     font-weight: 700;
     text-align: center;
+    margin-top: 20px;
+}
+
+#textoC2{
+    max-width: 1650px;
 }
 .botao{
     margin-bottom: 30px;
@@ -74,13 +83,38 @@
 }
 
 #containerObj{
+    /* margin-top: 30px;
+    display:flex;
+    background-image: url('../../assets/caixa-2.png');
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 1393px;
+     */
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh; /* 100% da altura da janela do navegador */
+    background-image: url('../../assets/caixa-2.png');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+   
     
-    background-color: #000000;
+
 }
 #conteudoObj{
-    display: flex;
-    text-align:left;
-    border-radius: 50px;
-    background-color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  
+
+}
+#botaoObj{
+    padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
