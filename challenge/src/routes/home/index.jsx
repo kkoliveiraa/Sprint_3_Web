@@ -5,6 +5,7 @@ import Rodape from '../../components/rodape'
 import caminhao from '../../assets/caminhao.png'
 import onibus from '../../assets/onibus.png'
 import trailer from '../../assets/trailer.png'
+
 export default function Home(){
 
 

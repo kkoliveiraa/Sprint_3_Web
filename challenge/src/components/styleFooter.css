@@ -1,0 +1,24 @@
+#footerStyle{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    background-image: url('../assets/caixa-2.png'); 
+    margin-left: 5px;
+    text-align: center;
+    height: 40vh;
+}
+.conteudoFooter{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.infos{
+    display:inline-table;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 0 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
