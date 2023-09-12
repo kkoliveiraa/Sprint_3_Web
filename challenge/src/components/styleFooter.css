@@ -13,6 +13,8 @@
     margin: 20px;
     text-align: center;
     padding: 10px;
+    font-family: "Fjalla One-Regular", Helvetica;
+    color:#fff
 }
 .infos{
     display:inline-table;
@@ -21,4 +23,23 @@
     margin: 0 10px;
     margin-top: 20px;
     margin-right: 40px;
+    font-family: "Fjalla One-Regular", Helvetica;
+    color:#fff
+}
+#sobreNosCont{
+    display:contents;
+    justify-content: space-between;
+    font-family: "Fjalla One-Regular", Helvetica;
+    color:#fff
+}
+.infos{
+
+}
+.BotaoSobrenos{
+    padding: 10px 20px; 
+    background-color: #fff; 
+    color: #002890;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
 }
