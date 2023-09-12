@@ -1,62 +1,81 @@
 /* stylesolicitar.css */
 
-
 /* Título da Página */
 .titulo-pagina {
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 45px;
+  line-height: 40px;
   color: #ffffff;
   font-family: 'Fjalla One', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-right: 45%; 
+  margin-top: 15px;
+  margin-bottom: 40px; /* Reduzi a margem inferior para ganhar mais espaço na tela */
+  white-space: nowrap; /* Evita que o texto quebre em várias linhas */
 }
-/* Container principal */
+
+
+
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: flex-start; /* Alinhe o conteúdo no topo */
+  padding: 20px; /* Adicione preenchimento para espaçamento interno */
+  overflow-y: auto; /* Adicione a propriedade overflow-y para permitir a rolagem vertical, se necessário */
+  max-height: 80vh; /* Defina uma altura máxima de 80% da altura da janela (viewport) */
+  
 }
+
 
 /* Seção Texto e Imagem */
 .texto-imagem {
   display: flex;
-  flex-direction: row; /* Alinha o texto e a imagem lado a lado */
-  justify-content: center; /* Centraliza horizontalmente o texto e a imagem */
-  align-items: flex-start; /* Alinha o texto ao topo */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 /* Estilo para a caixa de texto */
 .caixa-texto-1,
 .caixa-texto-2 {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
   color: #FFF;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 400;
-  width: 642px;
-  height: 230px;
+  width: 45%; /* Reduzi a largura para acomodar o conteúdo */
+  height: auto; /* Altura ajustável para acomodar o conteúdo */
+  max-height: 230px; /* Altura máxima para evitar que a caixa de texto fique muito alta */
   background: url(../../assets/caixaTexto.png) lightgray 50% / cover no-repeat;
   border-radius: 50px;
   box-shadow: 10px 10px 4px 0px #002890, 10px 10px 4px 0px #002890 inset;
-  margin-right: 20px; /* Espaçamento entre as caixas de texto */
-  padding: 25px; /* Espaçamento interno da caixa de texto */
+  padding: 25px;
+  margin-left: 25px;
 }
-
+.caixa-texto-1{
+  margin-bottom:30px;
+}
 
 /* Estilo para a imagem OpenCV */
 .imagem-opencv {
-  width: 306px; /* Largura da imagem OpenCV */
-  height: 306px; /* Altura da imagem OpenCV */
-  margin-top: 20px; /* Espaçamento superior entre as imagens */
-  border-radius: 50px; /* Borda arredondada */
+  margin-top: -60px; /* Movendo um pouco para cima */
+  margin-right: -90px; /* Movendo para a direita */
+  width: 45%;
+  height: auto;
+  max-height: 306px;
+  border-radius: 50px;
 }
 
 /* Estilo para a imagem haarCascade */
 .imagem-haarcascade {
-  width: 306px; /* Largura da imagem haarCascade */
-  height: 306px; /* Altura da imagem haarCascade */
-  margin-top: 20px; /* Espaçamento superior entre as imagens */
-  border-radius: 50px; /* Borda arredondada */
-
+  margin-top: 25px; /* Movendo um pouco para cima */
+  margin-right: -90px; /* Movendo para a direita */
+  width: 45%;
+  height: auto;
+  max-height: 306px;
+  border-radius: 50px;
 }
