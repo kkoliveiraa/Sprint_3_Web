@@ -8,7 +8,6 @@ import emote from "../../assets/emote.png"
 import emailSend from "../../assets/email-send.png"
 import retangle2 from "../../assets/rectangle-12.png"
 import retangle1 from "../../assets/rectangle11.png"
-
 import "./style.css";
 
 export default function Chatbot  () {
