@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 import Sobrenos from '../routes/sobrenos';
 import "../assets/caixa-1.png";
-import "../components/style.css";
-
+import "../components/styleFooter.css";
 export default function Rodape(){
 
     return(
