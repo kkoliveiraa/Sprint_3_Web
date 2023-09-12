@@ -25,15 +25,19 @@ export default function Home(){
 
         {/* container a direita com botão infos de chamao*/} 
         <div id="Container2">
+
             <p id="tituloC2">Aqui você poderá realizar o chamado de um modal de forma rápida e prática!</p>
             
-            <p>A Porto Help visa auxiliar nossos clientes com o objetivo de realizar um atendimento eficaz e com praticidade,
+            <p id ="textoC2">A Porto Help visa auxiliar nossos clientes com o objetivo de realizar um atendimento eficaz e com praticidade,
                 buscando o melhor para todos os usuários, independente ed faixa etária/conhecimento. Para isso iremos utilizar
                 de métodos com fácil utilização e que atendam todas as necessidades
             </p>
+            <p id="containerBotao">
             <Link to ="/solicitar">
                 <button className='botao'>Realizar Chamado</button>
             </Link>
+            </p>
+            
         </div>
 
         </div>

@@ -53,17 +53,15 @@
 #Container2{
     display: flex;
     flex-direction: column;
-    height: 50vh;
     
+    height: 50vh;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
-   
-    
     justify-content: space-between;
     background-image: url('../../assets/caixa-2.png');
     background-repeat: no-repeat;
-    background-size: 100%, 100%;
+    background-size:cover;
 
 }
 #tituloC2{
@@ -71,6 +69,9 @@
     font-weight: 700;
     text-align: center;
     margin-top: 20px;
+    
+
+    
 }
 
 #textoC2{
@@ -78,13 +79,17 @@
     max-width: 85%;
     display: flex;
     word-wrap: break-word;
+    padding-top: 0%;
+    align-content:flex-start
+
 }
+
 .botao{
     margin-bottom: 30px;
     border-radius:50px ;
     color: #002890;
     background-color: #ffff;
-}
+} 
 .botaoObj{
 
     display: flex;
