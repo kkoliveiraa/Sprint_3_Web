@@ -8,6 +8,8 @@ import audio from "../../assets/audio.png"
 import ellipse2 from "../../assets/ellipse-2.png"
 import emote from "../../assets/emote.png"
 import emailSend from "../../assets/email-send.png"
+import retangle from "../../assets/rectangle-11.png"
+import retangle2 from "../../assets/rectangle-12.png"
 import React from "react";
 import "./style.css";
     
@@ -30,7 +32,7 @@ import "./style.css";
                   <img className="image" alt="Image" src={iconePortinho} />
                 </div>
               </div>
-              <img className="informaes" alt="Informaes" src="informa-es.png" />
+              <img className="informaes" alt="Informaes" src={retangle} />
               <div className="tela-chatbot">
                 <div className="div">
                   <div className="overlap-2">
