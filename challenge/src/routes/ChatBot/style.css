@@ -1,5 +1,5 @@
 .chatbot {
-    background-color: #ffffff;
+    background-image: url(./background.svg);    
     display: flex;
     flex-direction: row;
     justify-content: center;
