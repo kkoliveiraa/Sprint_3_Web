@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 import motorista from "../../assets/motorista.png"
 import '../../routes/home/styleHome.css'
 import Rodape from '../../components/rodape'
+import caminhao from '../../assets/caminhao.png'
+import onibus from '../../assets/onibus.png'
+import trailer from '../../assets/trailer.png'
 export default function Home(){
 
 
@@ -32,8 +35,6 @@ export default function Home(){
                 <button className='botao'>Realizar Chamado</button>
             </Link>
         </div>
-        
-        
 
         </div>
 
@@ -44,11 +45,27 @@ export default function Home(){
             </Link>
         </div>
 
-        <div>
-            <p>Visamos atender o chamado de veículos pesados, buscando relizar o chmado para as seguintes categorias:</p>
-            <p>Caminhões</p><p>Ônibus</p><p>Trailers</p>
-        </div>
+        <div id="containerVei">
+            <p id="conteudoVei">Visamos atender o chamado de veículos pesados, buscando relizar o chamado para as seguintes categorias:</p> 
+            <div id="veiculos">
 
+            <div className="veiculo">
+            <p>Caminhões</p>
+            <p id="imagemVeiculo"><img id="caminhao"src={caminhao} alt="imagem de caminhao laranja" /></p>
+            </div>
+
+            <div className="veiculo">
+            <p>Ônibus</p>
+            <p id="imagemVeiculo"><img id="onibus"src={onibus} alt="imagem de onibus azul" /></p>
+            </div>
+
+            <div className="veiculo">
+            <p>Trailers</p>
+            <p id="imagemVeiculo"><img id="trailer"src={trailer} alt="imagem de trailer preto e branco" /></p>
+            </div> 
+
+            </div>
+        </div>
         <div>
             <Rodape/>
         </div>
