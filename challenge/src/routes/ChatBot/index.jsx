@@ -16,6 +16,7 @@ import "./style.css";
 
     export default function Chatbot  () {
       return (
+        <div id="scrollableContainer" style={{ width: '100%', height: 'calc(100vh - 60px)', overflow: 'auto' }}>
         <div className="chatbot">
           <div className="chatbot-px">
             <div className="overlap">
@@ -33,6 +34,7 @@ import "./style.css";
                 </div>
               </div>
               <img className="informaes" alt="Informaes" src={retangle} />
+              <p className="text-wrapper">Nós da Porto Help oferemos aos nossos clientes um Chatbot de simples utilização e que conta com técnologias de STT( Speech to Text) e TTS (Text to Speech),  que possibilita um atendimento mais rápido e fácil, visando simplificar ao máximo o chamado do modal.</p>
               <div className="tela-chatbot">
                 <div className="div">
                   <div className="overlap-2">
@@ -67,9 +69,9 @@ import "./style.css";
                   </div>
                 </div>
               </div>
-              <img className="tit-porto" alt="Tit porto" src="tit-porto.png" />
             </div>
           </div>
         </div>
+      </div>
       );
     };
