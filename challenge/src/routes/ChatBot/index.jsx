@@ -1,6 +1,8 @@
 import portinho from "../../assets/Portinho.png"
 import iconePortinho from "../../assets/iconePortinho.png"
-import background from "../../assets/background.png"    
+import background from "../../assets/background.png"
+import ellipse from "../../assets/ellipse-1.png"   
+ 
 import React from "react";
 import "./style.css";
     
