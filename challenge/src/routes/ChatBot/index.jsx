@@ -38,15 +38,15 @@ import "./style.css";
                       <img className="ellipse" alt="Ellipse" src={ellipse} />
                     </div>
                     <div className="text-wrapper">Portinho</div>
-                    <img className="close" alt="Close" src="close.png" />
+                    <img className="close" alt="Close" src={close} />
                   </div>
                   <div className="overlap-group-2">
                     <div className="caixa-texto" />
                     <div className="text-wrapper-2">Digite sua mensagem...</div>
-                    <img className="emote" alt="Emote" src="emote.svg" />
-                    <img className="email-send" alt="Email send" src="email-send.png" />
-                    <img className="attach" alt="Attach" src="attach.png" />
-                    <img className="audio" alt="Audio" src="audio.png" />
+                    <img className="emote" alt="Emote" src={emote} />
+                    <img className="email-send" alt="Email send" src={emailSend} />
+                    <img className="attach" alt="Attach" src={attach} />
+                    <img className="audio" alt="Audio" src={audio} />
                   </div>
                   <div className="msg-portinho">
                     <p className="p">Olá ! Sou o Portinho, o bot da Porto Help !</p>
