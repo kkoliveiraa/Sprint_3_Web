@@ -2,7 +2,12 @@ import portinho from "../../assets/Portinho.png"
 import iconePortinho from "../../assets/iconePortinho.png"
 import background from "../../assets/background.png"
 import ellipse from "../../assets/ellipse-1.png"   
- 
+import close from "../../assets/close.png"
+import attach from "../../assets/attach.png"
+import audio from "../../assets/audio.png"
+import ellipse2 from "../../assets/ellipse-2.png"
+import emote from "../../assets/emote.png"
+import emailSend from "../../assets/email-send.png"
 import React from "react";
 import "./style.css";
     
@@ -22,7 +27,7 @@ import "./style.css";
                     <br />
                     Diga Olá pro Portinho !
                   </p>
-                  <img className="image" alt="Image" src="image-1.png" />
+                  <img className="image" alt="Image" src={iconePortinho} />
                 </div>
               </div>
               <img className="informaes" alt="Informaes" src="informa-es.png" />
@@ -30,7 +35,7 @@ import "./style.css";
                 <div className="div">
                   <div className="overlap-2">
                     <div className="ellipse-wrapper">
-                      <img className="ellipse" alt="Ellipse" src="ellipse-1.png" />
+                      <img className="ellipse" alt="Ellipse" src={ellipse} />
                     </div>
                     <div className="text-wrapper">Portinho</div>
                     <img className="close" alt="Close" src="close.png" />
