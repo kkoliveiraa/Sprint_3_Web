@@ -34,6 +34,7 @@ import "./style.css";
                 </div>
               </div>
               <img className="informaes" alt="Informaes" src={retangle} />
+              
               <p className="text-wrapper">Nós da Porto Help oferemos aos nossos clientes um Chatbot de simples utilização e que conta com técnologias de STT( Speech to Text) e TTS (Text to Speech),  que possibilita um atendimento mais rápido e fácil, visando simplificar ao máximo o chamado do modal.</p>
               <div className="tela-chatbot">
                 <div className="div">
