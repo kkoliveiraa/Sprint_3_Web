@@ -1,8 +1,14 @@
-# React + Vite
+# Projeto Porto Help
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sprint 3 de Responsive Web Development 1TDSS/1TDSPV
 
-Currently, two official plugins are available:
+Integrantes do Grupo:
+Cauã Couto Basques RM97755 (1TDSS)
+Eduardo Moura Batageli RM97611 (1TDSS)
+Kaique Agostinho de Oliveira RM550815 (1TDSS)
+Rafael Minoro Itokazo RM99988 (1TDSS)
+Thiago Gil Camargo RM551211 (1TDSPV)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Link para site no vercel*
+
+https://sprint-3-web.vercel.app/
