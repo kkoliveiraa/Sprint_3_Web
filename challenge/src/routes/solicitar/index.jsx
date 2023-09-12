@@ -1,6 +1,7 @@
-import opencv from "../../assets/openCV.jpg";
-import openCVexemplo from "../../assets/openCVexemplo.png";
-import "./stylesolicitar.css";
+
+import opencv from '../../assets/openCV.jpg';
+import openCVexemplo from '../../assets/openCVexemplo.jpg';
+import './stylesolicitar.css';
 
 export default function Solicitar() {
   return (
