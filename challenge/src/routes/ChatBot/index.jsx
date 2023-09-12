@@ -23,6 +23,7 @@ import "./style.css";
             <img id="background" alt="Background" src={background}/>
               <div className="apresentao-do">
                 <div className="overlap-group">
+                <img id="retangle" alt="Retangulo fundo de texto" src={retangle2} />
                   <p className="para-isso">
                     Para isso, apresentamos a vocês o Portinho, nosso mascote virtual que será responsável pelo atendimento
                     via Chatbot.
