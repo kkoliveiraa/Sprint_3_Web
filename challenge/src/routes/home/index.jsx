@@ -36,8 +36,6 @@ export default function Home(){
                 <button className='botao'>Realizar Chamado</button>
             </Link>
         </div>
-        
-        
 
         </div>
 

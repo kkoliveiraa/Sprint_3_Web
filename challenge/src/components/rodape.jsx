@@ -12,7 +12,7 @@ export default function Rodape(){
             <p className="conteudoFooter">Quer saber mais sobre os Devs por trás do projeto? Clique no botão abaixo e confira</p>
             <p>
             <Link to ="/sobrenos">
-                <button id='BotaoSobrenos'> Sobre Nós</button>
+                <button id='BotaoSobrenos'>Sobre Nós</button>
             </Link>
             </p>
            
