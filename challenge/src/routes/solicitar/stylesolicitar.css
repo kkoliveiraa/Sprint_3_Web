@@ -1,16 +1,16 @@
 /* stylesolicitar.css */
 
+
 /* Título da Página */
 .titulo-pagina {
   font-size: 48px;
   line-height: 60px;
   color: #ffffff;
   font-family: 'Fjalla One', sans-serif;
+  font-style: normal;
   font-weight: 400;
-  margin: 20px; /* Espaçamento do título em relação às bordas da página */
- 
+  line-height: normal;
 }
-
 /* Container principal */
 main {
   display: flex;
