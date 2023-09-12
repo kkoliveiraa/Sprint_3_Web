@@ -4,12 +4,11 @@ import ellipse from "../../assets/ellipse-1.png"
 import close from "../../assets/close.png"
 import attach from "../../assets/attach.png"
 import audio from "../../assets/audio.png"
-import ellipse2 from "../../assets/ellipse-2.png"
 import emote from "../../assets/emote.png"
 import emailSend from "../../assets/email-send.png"
-import React from "react";
-import retangle from "../../assets/rectangle-11.png"
 import retangle2 from "../../assets/rectangle-12.png"
+import retangle1 from "../../assets/rectangle11.png"
+
 import "./style.css";
 
 export default function Chatbot  () {
@@ -32,8 +31,9 @@ export default function Chatbot  () {
               <img className="image" alt="Image" src={iconePortinho} />
             </div>
           </div>
-          <img className="informaes" alt="Informaes" src={retangle} />
-          <p className="text-wrapper">Nós da Porto Help oferemos aos nossos clientes um Chatbot de simples utilização e que conta com técnologias de STT( Speech to Text) e TTS (Text to Speech),  que possibilita um atendimento mais rápido e fácil, visando simplificar ao máximo o chamado do modal.</p>
+
+          <img className="informaes" alt="Informaes" src={retangle1} />
+           
           <div className="tela-chatbot">
             <div className="div">
               <div className="overlap-2">
