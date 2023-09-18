@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
+import Chatbot from '../../components/chatBot'
 import motorista from "../../assets/motorista.png"
 import '../../routes/home/styleHome.css'
 import Rodape from '../../components/rodape'
 import caminhao from '../../assets/caminhao.png'
 import onibus from '../../assets/onibus.png'
 import trailer from '../../assets/trailer.png'
+
 export default function Home(){
 
 
@@ -70,6 +72,12 @@ export default function Home(){
 
             </div>
         </div>
+        <div id="containerChatbot">
+       
+          <Chatbot/> 
+
+        </div>
+      
         <div>
             <Rodape/>
         </div>
